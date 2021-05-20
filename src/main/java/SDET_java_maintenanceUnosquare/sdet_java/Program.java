@@ -12,7 +12,7 @@ public class Program {
 
 	public WebDriver SetUp() 
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\jose.morales\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\luis.osuna\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://people.unosquare.com/");
